@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+func main() {
+	numeros := [4]float64{6, 7.5, 2.3, 5.2}
+
+	produto := numeros[0] * numeros[1] * numeros[2] * numeros[3]
+
+	fmt.Println("O produto dos numeros armazenados é", produto)
+}

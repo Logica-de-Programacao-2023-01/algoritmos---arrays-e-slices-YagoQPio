@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var slice[] int
+	var soma, tamanho, X int
+	fmt.Print("digite o tamanho do slice")
+	fmt.Scan(&tamanho)
+	
+	for i :=0; i <tamanho; i++{
+		fmt.Print("digite um numero")
+		fmt.Scan(&X)
+		slice = append(slice, X)
+		soma = soma + X
+	}
+}

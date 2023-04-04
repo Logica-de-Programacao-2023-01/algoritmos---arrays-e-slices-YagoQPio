@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	var matriz [3][[2] int
+	
+	for linha :=0; linha<len(matriz); linha++{
+		for coluna := 0; coluna<len(matriz[linha]); coluna++{
+			var X int
+			fmt.Println("Qual o numero da linha",linha,"e da coluna",coluna)
+			fmt.Scan(&X)
+			matriz[linha][coluna] = X
+			
+		}
+	}
+	
+
+}
